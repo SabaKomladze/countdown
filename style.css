@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 700;
+    height: 100vh;
+    width: 100vw;
+    background-color: #1D1E28;
+    background-image: url(./images/bg-stars.svg), url(./images/pattern-hills.svg);
+    background-repeat: no-repeat no-repeat;
+    background-position: top, bottom;
+    background-size: auto, 100vw 168px;
+}
+header{
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 6.13636px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    max-width: 327px;
+    margin: 142px auto 0;
+}
+.timer{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 4.2%;
+    margin-top:54px ;
+}
+.digit{
+    width: 70px;
+    height: 66.27px;
+    background:  #343650;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    line-height: 71px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -1.08px;
+    color: #FB5E84;
+}
+.text{
+    position: absolute;
+    top: 75px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    font-size: 7px;
+    line-height: 9px;
+    text-align: center;
+    letter-spacing: 2.95937px;
+    color: #8385A9;
+    
+}
